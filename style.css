@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebf2f7;
+    padding-top: 30px;
+}
+
+/* main container of all items  */
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* the background of whole line  */
+
+.progress_bar_bg {
+    width: 100%;
+    height: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    background-color: #808080;
+}
+
+/* the line  */
+
+.progress_bar_line {
+    height: 100%;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: #00b7ff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
