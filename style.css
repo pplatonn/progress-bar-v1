@@ -1,49 +1,44 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: #ebf2f7;
-    padding-top: 30px;
+html {
+    padding-top: 40px;
 }
 
-/* main container of all items  */
-
 .container {
-    width: 60%;
+    width: 40vw;
     margin: 0 auto;
 }
 
-/* the background of whole line  */
-
-.progress_bar_bg {
-
+.progress_bar_wrapper {
     width: 100%;
-    height: 20px;
-    border-radius: 50px;
-    overflow: hidden;
-    position: relative;
-    background-color: #808080;
 }
 
-/* the line  */
+.progress_bar_bg {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #636368;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
 
 .progress_bar_line {
-    transition: .2s ease-in;
+    border-radius: 30px;
     height: 100%;
-    color: white;
     position: absolute;
     top: 0;
     left: 0;
-    text-align: center;
-    background-color: #00b7ff;
+    background-color: #14a1ff;
 }
 
 h1 {
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: 30px;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
 }
